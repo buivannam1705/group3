@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    min-height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0px 24px;
+    display: block;
+    position: relative;
+}
+
+.subnav li {
+    position: relative;
+    width: 100%;
+}
+
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+#nav li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+#nav .subnav >li> a {
+    background: #fff;
+    color: #000;
+}
+
+#nav .subnav a ,.login-nav li a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 46px;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+.subnav li a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+#nav , .subnav , .login-nav {
+    list-style-type: none;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0px 24px;
+    display: block;
+    position: relative;
+}
+
+.subnav li {
+    position: relative;
+    width: 100%;
+}
+
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+#nav li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+#nav .subnav >li> a {
+    background: #fff;
+    color: #000;
+}
+
+#nav .subnav a ,.login-nav li a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 46px;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+.subnav li a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+#nav , .subnav , .login-nav {
+    list-style-type: none;
+}
+ /*end*/
+
+#login-icon {
+    float: right;
+    display: inline-block;
+}
+
+#login-icon li {
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#login-icon li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0px 24px;
+    display: block;
+    position: relative;
+}
+
+.login-nav li {
+    position: relative;
+    width: 100%;
+}
+
+
+#login-icon .login-nav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+#login-icon li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+#login-icon .login-nav >li> a {
+    background: #fff;
+    color: #000;
+}
+
+#login-icon .login-nav li a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 46px;
+}
+
+#login-icon li:hover .login-nav {
+    display: block;
+}
+
+.login-nav li a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+#login-icon , .login-nav {
+    list-style-type: none;
+}
+
+
+
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('http://vnnews360.net/img_data/images/top-10-sieu-xe-dat-gia-nhat-the-gioi-hien-nay-05.jpg') top center / cover no-repeat;
+    position: relative;
+}
+
+#slider1{
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('https://icdn.dantri.com.vn/thumb_w/680/2022/10/05/most-expensive-cars-3-1664958499840.jpg') top center / cover no-repeat;
+    position: relative;
+}
+
+#slider2 {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('https://xe360.com/uploads/forum/photo/6m/6mf/6mf7bvr3puut.jpg') top center / cover no-repeat;
+    position: relative;
+}
+
+.text-content {
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.text-heading {
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+.text-description {
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+
+
